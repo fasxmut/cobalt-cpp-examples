@@ -1,0 +1,24 @@
+lib cobalt
+	:
+	:
+		<name>boost_cobalt
+;
+
+project
+	:
+		requirements
+			<library>cobalt
+	:
+		default-build
+			<cxxstd>23
+;
+
+progs =
+	hello
+;
+
+for prog in $(progs)
+{
+	exe $(prog) : $(prog).cpp ;
+}
+
