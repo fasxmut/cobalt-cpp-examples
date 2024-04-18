@@ -35,11 +35,6 @@ hello.cpp
 
 co_main - start using co_main in c++ coroutines
 
-http-server.cpp http-client.cpp
-----------------------------------------
-
-asio/beast coroutine http server and client using cobalt.
-
 cobalt-promise.cpp
 ----------------------------------------
 
@@ -49,6 +44,16 @@ cobalt-generator.cpp
 ----------------------------------------
 
 cobalt::generator - co_await many values returned by co_yield and co_return .
+
+http-server.cpp http-client.cpp
+----------------------------------------
+
+asio/beast coroutine http server and client using cobalt.
+
+http-cs.cpp
+----------------------------------------
+
+beast cobalt http cs - http server/client in one single c++ source file.
 
 
 LICENSE

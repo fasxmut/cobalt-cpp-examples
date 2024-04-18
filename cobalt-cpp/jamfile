@@ -21,6 +21,7 @@ progs =
 
 	http-server
 	http-client
+	http-cs
 ;
 
 for prog in $(progs)
