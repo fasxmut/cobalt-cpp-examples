@@ -17,10 +17,10 @@ progs =
 	hello
 	
 	cobalt-promise
+	cobalt-generator
 
 	http-server
 	http-client
-
 ;
 
 for prog in $(progs)

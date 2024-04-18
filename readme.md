@@ -45,6 +45,11 @@ cobalt-promise.cpp
 
 cobalt::promise - co_await single value returned by co_return .
 
+cobalt-generator.cpp
+----------------------------------------
+
+cobalt::generator - co_await many values returned by co_yield and co_return .
+
 
 LICENSE
 ============================================================

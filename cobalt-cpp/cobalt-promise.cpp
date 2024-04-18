@@ -1,6 +1,8 @@
 #include <boost/cobalt.hpp>
 #include <iostream>
 
+// cobalt::promise - co_await single value returned by co_return .
+
 namespace cobalt = boost::cobalt;
 
 class cobox_class
