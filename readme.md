@@ -30,15 +30,21 @@ cobalt::join
 examples
 ============================================================
 
-+ hello.cpp
+hello.cpp
 ----------------------------------------
 
 co_main - start using co_main in c++ coroutines
 
-+ http-server.cpp http-client.cpp
+http-server.cpp http-client.cpp
 ----------------------------------------
 
 asio/beast coroutine http server and client using cobalt.
+
+cobalt-promise.cpp
+----------------------------------------
+
+cobalt::promise - co_await single value returned by co_return .
+
 
 LICENSE
 ============================================================
